@@ -1,0 +1,901 @@
+@media screen and (max-width: 1440px) {
+
+    .new_product {
+        display: block;
+    }
+
+    .new_product .list_product {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .new_product .title br {
+        display: none;
+    }
+
+    .list_seller .card {
+        width: 100%;
+        border: 1px solid #dfd8d8;
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        height: 328px;
+        position: relative;
+    }
+
+    .women_post .img .bg {
+        height: 600px;
+    }
+
+    .women_post .txt {
+        margin-right: 10%;
+    }
+
+    .all_sale .slider_sale .card {
+        /* border: 1px solid; */
+        margin: 0px 10px;
+    }
+
+    .all_sale .slider_sale .img img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .all_sale .slider_sale .card .sale {
+        background-color: #D85656;
+        position: absolute;
+        padding: 3px 20px;
+        color: white;
+    }
+
+    .all_sale .slider_sale .card .txt {
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .all_sale .slider_sale .card .txt p {
+        color: black;
+        margin-bottom: 20px;
+        position: absolute;
+        top: -70%;
+    }
+
+    .all_sale .slider_sale .card .txt .price_bt {
+        display: block;
+    }
+
+    .all_sale .slider_sale .card .txt .price {
+        margin-top: 70px;
+        margin-left: 0px;
+        display: flex;
+    }
+
+    .all_sale .slider_sale .card .txt .price .new {
+        font-size: 18px;
+        margin: 0px;
+    }
+
+    .all_sale .slider_sale .card .txt .price .old {
+        font-size: 14px;
+    }
+
+    .all_sale .slider_sale .card .txt button {
+        margin-top: 5px;
+        padding: 5px 0px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .slider {
+        height: 500px;
+    }
+
+    .slider .main {
+        height: 500px;
+    }
+
+    .slider .main .txt {
+        margin-left: 9%;
+        margin-top: 1%;
+    }
+
+    .slider .main .txt h2 {
+        font-size: 40px;
+        transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+    }
+
+    .slider .main .txt span {
+        font-size: 15px;
+    }
+
+    .slider .main button {
+        padding: 6px 25px;
+    }
+
+    .slider .main img {
+        width: 40%;
+        right: 28%;
+    }
+
+    .slider .active_main img {
+        width: 40%;
+        right: 8%;
+    }
+
+    .slider .active_main {
+        height: 660px;
+        width: 100%;
+        position: absolute;
+    }
+
+    .slider .main img {
+        width: 35%;
+    }
+
+    .slider .active_main img {
+        width: 35%;
+    }
+
+    .gender {
+        width: 80%;
+        top: 620px;
+        left: 10%;
+    }
+
+    .gender .men_watch {
+        height: 200px;
+        width: 90%;
+        margin: 5%;
+        overflow: hidden;
+    }
+
+    .gender .women_watch {
+        height: 200px;
+        width: 90%;
+        margin: 5%;
+        overflow: hidden;
+    }
+
+    .best_seller .main_seller {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .slider_seller {
+        width: 100%;
+    }
+
+    .slider_seller .card img {
+        width: 54%;
+        margin: auto;
+    }
+
+    .man_post .img .bg {
+        height: 135%;
+    }
+
+    .women_post .img .bg {
+        height: 450px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .man_post .img .bg {
+        height: 115%;
+    }
+
+    .women_post .img .bg {
+        height: 400px;
+    }
+
+    .slider {
+        height: 560px;
+    }
+
+    .slider .main {
+        height: 560px;
+    }
+
+    .slider .main .txt {
+        margin-left: 9%;
+        margin-top: 1%;
+    }
+
+    .slider .main .txt h2 {
+        font-size: 40px;
+        transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+    }
+
+    .slider .main .txt span {
+        font-size: 15px;
+    }
+
+    .slider .main button {
+        padding: 6px 25px;
+    }
+
+    .slider .main img {
+        width: 40%;
+        right: 28%;
+    }
+
+    .slider .active_main img {
+        width: 40%;
+        right: 8%;
+    }
+
+    .slider .active_main {
+        height: 660px;
+        width: 100%;
+        position: absolute;
+    }
+
+    .slider .active_main .txt {
+        margin-left: 9%;
+        margin-top: 1%;
+    }
+
+    .slider .active_main .txt h2 {
+        font-size: 40px;
+    }
+
+    .slider .active_main .txt span {
+        font-size: 15px;
+    }
+
+    .slider .active_main button {
+        padding: 6px 25px;
+    }
+
+    .slider .fa-chevron-left {
+        position: absolute;
+        top: 19%;
+        left: 2%;
+        opacity: 0;
+        transition: 0.4s;
+        font-size: 30px;
+        padding: 20px 20px;
+        cursor: pointer;
+    }
+
+    .slider .fa-chevron-right {
+        position: absolute;
+        top: 19%;
+        right: 2%;
+        opacity: 0;
+        transition: 0.4s;
+        font-size: 30px;
+        padding: 20px 20px;
+        cursor: pointer;
+    }
+
+
+    .slider .dotbox .dot {
+
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        margin: 0px 6px;
+        cursor: pointer;
+        border: 1px solid #C4C4C4;
+        background-color: #C4C4C4;
+    }
+
+    .gender {
+        width: 80%;
+        top: 620px;
+        left: 10%;
+    }
+
+    .gender .men_watch {
+        height: 200px;
+        width: 90%;
+        margin: 5%;
+        overflow: hidden;
+    }
+
+    .gender .women_watch {
+        height: 200px;
+        width: 90%;
+        margin: 5%;
+        overflow: hidden;
+    }
+
+    .new_product {
+        margin: 150px 9% 0px;
+    }
+
+    .new_product img {
+        width: 90%;
+    }
+
+    .new_product .title p {
+        font-size: 14px;
+    }
+
+    .new_product .title h2 {
+        font-size: 40px;
+    }
+
+    .new_product .title span {
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+    .new_product .title .bt {
+        margin-top: 40px;
+        margin-left: 8%;
+    }
+
+    .new_product .title .bt a {
+        text-decoration: none;
+        padding: 10px;
+        color: black;
+    }
+
+    .new_product .title .bt span {
+        font-size: 15px;
+        position: relative;
+    }
+
+    .new_product .list_product .card {
+        /* border: 1px solid; */
+        margin-left: 5%;
+    }
+
+    .new_product .list_product .card .txt {
+        position: relative;
+    }
+
+    .new_product .list_product .card .txt p {
+        position: absolute;
+        top: -55%;
+    }
+
+    .new_product .list_product .card .img {
+        margin-top: 30px;
+    }
+
+    .new_product .list_product .card #new {
+        padding: 3px 20px;
+    }
+
+    .new_product .list_product .card .txt .price_bt {
+        margin-top: 30%;
+        display: block;
+    }
+
+    .new_product .list_product .card .txt .price_bt button {
+        margin-top: 10px;
+        padding: 8px 30px;
+        width: 100%;
+    }
+
+    .slider_seller {
+        height: 600px;
+    }
+
+    .slider_seller .card img {
+        width: 400px;
+        margin: auto;
+    }
+
+    .all_sale .slider_sale {
+        height: 660px;
+    }
+
+    .all_sale .slider_sale .card {
+        /* border: 1px solid; */
+        margin: 0px 10px;
+    }
+
+    .all_sale .slider_sale .img img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .all_sale .slider_sale .card .sale {
+        background-color: #D85656;
+        position: absolute;
+        padding: 3px 20px;
+        color: white;
+    }
+
+    .all_sale .slider_sale .card .txt {
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .all_sale .slider_sale .card .txt p {
+        color: black;
+        margin-right: 20px;
+        margin: 0px;
+        position: absolute;
+        top: -70%;
+        font-size: 15px;
+    }
+
+    .all_sale .slider_sale .card .txt .price {
+        margin-top: 70px;
+        margin-left: 0px;
+        display: block;
+
+    }
+
+    .all_sale .slider_sale .card .txt .price .new {
+        font-size: 18px;
+        margin: 0px;
+    }
+
+    .all_sale .slider_sale .card .txt .price .old {
+        font-size: 14px;
+    }
+
+    .all_sale .slider_sale .card .txt button {
+        margin-top: 10px;
+        padding: 5px 0px;
+        width: 90%;
+    }
+
+    .women_post {
+        margin-top: 100px;
+    }
+
+    .women_post {
+        margin-top: 200px;
+    }
+    .all_sale .slick-list{
+        height: 100%;
+    }
+    .slider_sale.slick-initialized{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .gender{
+        top: 520px;
+    }
+    .man_post{
+        margin: 0 9% 0 !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .man_post .txt{
+        margin-top: 0;
+    }
+    .slider {
+        height: 450px;
+    }
+
+    .slider .main {
+        height: 450px;
+    }
+
+    .slider .main .txt {
+        margin-left: 9%;
+        margin-top: 1%;
+    }
+
+    .slider .main .txt h2 {
+        font-size: 29px;
+    }
+
+    .slider .main .txt span {
+        font-size: 15px;
+        display: none;
+    }
+
+    .slider .main button {
+        padding: 6px 25px;
+    }
+
+    .slider .main img {
+        width: 300px;
+        right: 25%;
+    }
+
+    .slider .active_main img {
+        width: 300px;
+        right: 3%;
+    }
+
+    .slider .active_main {
+        height: 660px;
+        width: 100%;
+        position: absolute;
+    }
+
+    .slider .active_main .txt {
+        margin-left: 9%;
+        margin-top: 1%;
+        width: 200px;
+    }
+
+    .slider .active_main .txt h2 {
+        font-size: 29px;
+    }
+
+    .slider .active_main .txt span {
+        font-size: 15px;
+        display: none;
+    }
+
+    .slider .active_main button {
+        margin-top: -20px;
+        padding: 6px 25px;
+    }
+
+    .slider .fa-chevron-left {
+        display: none;
+    }
+
+    .slider .fa-chevron-right {
+        display: none;
+    }
+
+
+    .slider .dotbox .dot {
+        display: none;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        margin: 0px 6px;
+        cursor: pointer;
+        border: 1px solid #C4C4C4;
+        background-color: #C4C4C4;
+    }
+
+    .gender {
+        width: 100%;
+        top: 460px;
+        position: absolute;
+        left: 0%;
+    }
+
+    .gender .men_watch {
+        height: 200px;
+        width: 190%;
+        margin: 5%;
+        overflow: hidden;
+
+    }
+
+    .gender .women_watch {
+        height: 200px;
+        width: 90%;
+        margin: 5%;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .cart {
+        z-index: 10;
+    }
+
+    .new_product {
+        margin: 150px 0% 0px;
+    }
+
+    .new_product img {
+        width: 120%;
+    }
+
+    .new_product .title {
+        margin-left: 10%;
+    }
+
+    .new_product .title p {
+        font-size: 14px;
+    }
+
+    .new_product .title h2 {
+        font-size: 40px;
+    }
+
+    .new_product .title span {
+        margin-top: 40px;
+        font-size: 15px;
+
+    }
+
+    .new_product .title span::after {
+        left: 110%;
+    }
+
+    .new_product .title .bt {
+        margin-top: 40px;
+        margin-left: 8%;
+    }
+
+    .new_product .title .bt a {
+        text-decoration: none;
+        padding: 10px;
+        color: black;
+    }
+
+    .new_product .title .bt span {
+        font-size: 12px;
+        position: relative;
+    }
+
+    .new_product .list_product .card {
+        /* border: 1px solid; */
+        margin-left: 5%;
+    }
+
+    .new_product .list_product .card .txt {
+        position: relative;
+    }
+
+    .new_product .list_product .card .txt p {
+        position: absolute;
+        top: -55%;
+    }
+
+    .new_product .list_product .card .img {
+        margin-top: 30px;
+    }
+
+    .new_product .list_product .card #new {
+        padding: 3px 20px;
+    }
+
+    .new_product .list_product .card .txt .price_bt {
+        margin-top: 30%;
+        display: block;
+    }
+
+    .new_product .list_product .card .txt .price_bt button {
+        margin-top: 10px;
+        padding: 8px 30px;
+        width: 100%;
+    }
+
+    .list_seller .card #sale {
+        padding: 3px 20px;
+
+    }
+
+    .list_seller .card img {
+        margin-top: 50px;
+        max-width: 220px;
+        max-height: 220px;
+    }
+
+    .list_seller .card .txt {
+        margin-top: 60px;
+    }
+
+    .best_seller {
+        margin: 100px 2%;
+    }
+
+    .slider_seller .card .txt .price_bt {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .slider_seller .card .txt .price_bt button {
+        margin-top: 20px;
+    }
+
+    .slider_seller .card .txt {
+        margin: 0px 10px;
+    }
+
+    .slider_seller .card .txt .price_bt button {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .list_seller .card {
+        width: 100%;
+        border: 1px solid #dfd8d8;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        height: 328px;
+        position: relative;
+    }
+
+    .all_sale .slider_sale {
+        height: 560px;
+    }
+
+    .man_post {
+        margin: 100px 9% 0px;
+        display: block;
+    }
+
+    .man_post .img {
+        position: absolute;
+        top: 110%;
+    }
+
+    .man_post .img .bg {
+        /* display: none; */
+        width: 60%;
+        height: 125%;
+    }
+
+    .man_post .img img {
+        width: 300px;
+        position: absolute;
+        top: 0%;
+    }
+
+    .man_post .txt {
+        margin-left: 10%;
+    }
+
+    .man_post .txt h2 {
+        font-size: 50px;
+        margin-top: 5%;
+    }
+
+    .man_post .txt p {
+        margin-bottom: 7%;
+        letter-spacing: 1px;
+        font-size: 15px;
+        margin-top: 1%;
+    }
+
+    .women_post {
+        margin: 600px 9% 0px;
+        display: block;
+        position: relative;
+    }
+
+    .women_post .txt {
+        margin-top: 30%;
+    }
+
+    .women_post .txt h2 {
+        font-size: 44px;
+    }
+
+    .women_post .txt p {
+        margin-top: 10%;
+        margin-bottom: 7%;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+
+    .women_post .txt a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    }
+
+    .women_post .txt span {
+        margin-top: 10%;
+        font-size: 16px;
+        position: relative;
+    }
+
+    .women_post .txt span::after {
+        content: "";
+        display: inline-block;
+        width: 40px;
+        position: absolute;
+        top: 45%;
+        right: -65%;
+        height: 4px;
+        background-color: black;
+    }
+
+    .women_post .img .bg {
+        display: none;
+        position: absolute;
+        Width: 30%;
+        Height: 662.08px;
+        background-color: #32303B;
+        z-index: -1;
+        right: -11%;
+        top: -8%;
+    }
+
+    .women_post .img #women_post1 {
+        width: 40%;
+    }
+
+    .women_post .img #women_post2 {
+        width: 50%;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .slider_sale.slick-initialized{
+        height: 450px;
+    }
+
+    .new_product .title p{
+        margin-top: 180px;
+    }
+    .new_product .list_product .card {
+        /* border: 1px solid; */
+        margin-left: 2%;
+    }
+
+    .new_product .list_product .card .txt {
+        position: relative;
+    }
+
+    .new_product .list_product .card .txt p {
+        position: absolute;
+        top: -55%;
+    }
+
+    .new_product .list_product .card .img {
+        margin-top: 30px;
+        margin-left: -27%;
+        width: 120%;
+    }
+
+    .new_product .list_product .card #new {
+        padding: 3px 18px;
+    }
+
+    .new_product .list_product .card .txt .price_bt {
+        margin-top: 30%;
+        display: block;
+    }
+
+    .new_product .list_product .card .txt .price_bt button {
+        margin-top: 10px;
+        padding: 8px 30px;
+        width: 100%;
+    }
+
+    .slider .main img {
+        transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+        width: 200px;
+        position: absolute;
+        top: 0px;
+        right: 16%;
+        opacity: 0;
+    }
+
+    .slider .active_main img {
+        transition: all 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+        width: 200px;
+        position: absolute;
+        top: 0px;
+        right: 1%;
+        transition-delay: 0.3s;
+    }
+
+    .gender {
+        width: 100%;
+        top: 380px;
+        position: absolute;
+        left: 0%;
+        display: block;
+    }
+
+    .gender .men_watch {
+        height: 150px;
+        width: 100%;
+        margin: 2%;
+        overflow: hidden;
+
+    }
+
+    .gender .women_watch {
+        height: 150px;
+        width: 100%;
+        margin: 2%;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .gender img {
+        width: 99%;
+    }
+}

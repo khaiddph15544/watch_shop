@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main{
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.container_login section {
+    width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    border: solid 1px #c5c5c5;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.container_login form {
+    margin-left: 50px;
+}
+
+.container_login form h1 {
+    margin: 25px 0px 25px 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container_login form input {
+    margin: 15px 0px 10px 15px;
+    outline: none;
+    font-size: 18px;
+    --webkit-box-shadow--: 0 0 0 30px white inset !important;
+}
+
+.container_login .account input, .container_login .password input, .user_name input {
+    border: none;
+    border-bottom: 1px solid #999;
+    height: 50px;
+    width: 350px;
+    outline: none;
+    background-color: #fff;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.container_login .log_in button {
+    margin: 25px 0px 20px 15px;
+    color: white;
+    background-color: black;
+    width: 130px;
+    font-size: 16px;
+    font-weight: lighter;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.container_login .forget {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.container_login .forget a {
+    text-decoration: none;
+    color: rgb(226, 38, 38);
+}
+
+
+@media screen and (max-width:992px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container_login main{
+        padding-top: 40px;
+    }
+    .container_login section{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+    }
+    .container_login form{
+        margin-left: 0;
+    }
+    .model_img{
+        display: none;
+    }
+    .container_login form{
+        width: 100%;
+    }
+    .container_login .account input, .container_login .password input, .user_name input{
+        width: 95%;
+    }
+    .Content{
+        width: 100%;
+    }
+
+}

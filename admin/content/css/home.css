@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    font-family: sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    width: 275px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.sidebar .title {
+    height: 115px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.137);
+}
+
+.sidebar .title h2 {
+    font-size: 30px;
+    line-height: 145px;
+    margin-left: 12%;
+}
+
+.sidebar nav ul li {
+    font-size: 17px;
+    padding: 12px 0px;
+    transition: 0.4s;
+}
+
+.sidebar nav ul li i {
+    padding-right: 25px;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.sidebar nav ul li:hover {
+    transform: translateX(10px);
+    color: #3250EC;
+}
+
+.sidebar nav ul li:hover i {
+    opacity: 1;
+    color: black;
+}
+
+.top nav ul {
+    display: flex;
+}
+
+.top nav ul li {
+    list-style: none;
+    padding: 25px 25px;
+    width: 190px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.top nav ul li i {
+    padding-right: 8px;
+}
+
+.list_new_user {
+    margin-top: 50px;
+}
+
+.list_new_user h2 {
+    margin-left: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table thead tr {
+    height: 50px;
+    background-color: #E8E8E8;
+}
+table th{
+    text-align: left;
+    padding-left: 50px;
+}
+table thead tr td {
+    height: 50px;
+    padding-left: 50px;
+    color: #25282B;
+    font-weight: bold;
+}
+table tbody tr {
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+table tbody tr td {
+    height: 50px;
+    padding-left: 50px;
+}
+table tbody tr #name{
+    position: relative;
+    padding-left: 50px;
+}
+table tbody tr td img{
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+}
+.main_right{
+    margin-left: 290px;
+    width: 1200px;
+}
+button{
+    cursor: pointer;
+}

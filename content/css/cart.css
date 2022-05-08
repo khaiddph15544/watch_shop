@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+main {
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+
+#cart table {
+    width: 1290px;
+    margin: 50px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+}
+
+#cart .order {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    margin: auto;
+}
+
+#product_name, #price {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #333;
+}
+
+#cart table input[type="button"], #quantity_input {
+    width: 50px;
+    border: 1px solid #e4e4e4;
+    background-color: #e4e4e4;
+    cursor: pointer;
+    font-size: 17px;
+    text-align: center;
+    outline: none;
+}
+
+#cart table i {
+    cursor: pointer;
+}
+
+.order #coupon input {
+    width: 300px;
+    height: 30px;
+    text-indent: 15px;
+    outline: none;
+    display: block;
+    margin-top: 25px;
+}
+
+.order #coupon button {
+    width: 100px;
+    height: 28px;
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #999;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.order .price strong {
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #999;
+    width: 450px;
+}
+
+.order .price div {
+    margin-top: 20px;
+}
+
+.order .price #str1 {
+    border-bottom: none;
+}
+
+.order .price #str1, .order .price #str2 {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order .price button {
+    width: 200px;
+    height: 40px;
+    border: 1px solid red;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+.order .price .num_price2 {
+    color: red;
+}
+
+/* --------------------------------- */
+
+
+/* ------------------------------------ */
+#tam_tinh, #tong_tien {
+    text-align: right;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+}
+
+.cart_empty {
+    padding: 50px 0;
+}
+
+.cart_empty h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cart_empty a {
+    text-align: center;
+    display: block;
+    width: 250px;
+    margin: auto;
+    font-weight: bold;
+    padding: 15px 0;
+    margin-top: 50px;
+    border: 1px solid red;
+    color: #fff;
+    background-color: red;
+}
+
+.cart_empty img {
+    display: block;
+    margin: auto;
+}
+
+.cart {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    #cart table {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+}

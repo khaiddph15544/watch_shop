@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+main{
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+.register_warranty h1{
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 900;
+}
+.register_warranty hr{
+    color: #fff;
+}
+.register_warranty .main_rw{
+    display: flex;
+    justify-content: space-evenly;
+}
+.register_warranty .main_rw h2{
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.register_warranty .main_rw p{
+    display: inline-block;
+    width: 200px;
+    font-size:18px;
+    font-weight:600;
+}
+.register_warranty .main_rw p{
+    margin-top: 30px;
+}
+.register_warranty .main_rw input, .register_warranty .main_rw select{
+    width: 300px;
+    height: 35px;
+    outline: none;
+    text-indent: 6px;
+    border: 1px solid #999;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    pointer-events: pointer;
+    font-size: 18px;
+}
+::placeholder{
+    font-size: 16px;
+}
+.register_warranty .main_rw input{
+    text-indent: 15px;
+    cursor: default;
+}
+.register_warranty .main_rw textarea{
+    width: 270px;
+    height: 80px;
+    border-radius: 8px;
+    resize: none;
+    border: 1px solid #999;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.register_warranty .main_rw button{
+    width: 300px;
+    height: 45px;
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    background-color: red;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+label.error{
+    color: red;
+    display: block; 
+    font-size: 10px m !important;
+    margin-top: 2px;
+    margin-left: 205px;
+}
+/* ------------------------- */
+.infor_warranty img, .register_warranty img{
+    width: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 25px;
+}
+.infor_warranty h1{
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 900;
+}
+.infor_warranty hr{
+    color: #fff;
+}
+.infor_warranty .main_rw{
+    display: flex;
+    justify-content: space-evenly;
+}
+.infor_warranty table{
+    width:1300px;
+    margin: 50px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-weight: bold;
+}
+.infor_warranty table th{
+    height: 50px;
+    font-size: 20px;
+}
+
+.infor_warranty table tbody tr td{
+    max-width: 250px;
+    width: auto;
+}
+.infor_warranty table th, .infor_warranty table td{
+    text-align: center;
+}
+.infor_warranty .create_warranty a{
+    text-align: center;
+    display: block;
+    border: 1px solid;
+    padding: 8px 35px;
+    width: 250px;
+    margin: auto;
+    background-color: red;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* ------------------------- */
+.warranty_empty{
+    padding: 50px 0;
+}
+.warranty_empty h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.warranty_empty a{
+    text-align: center;
+    display: block;
+    width: 250px;
+    margin: auto;
+    font-weight: bold;
+    padding: 15px 0; 
+    margin-top: 50px;
+    border: 1px solid red;
+    color: #fff;
+    background-color: red;
+}
+.warranty_empty img{
+    display: block;
+    margin: auto;
+    width: 250px;
+}

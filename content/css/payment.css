@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    padding-top: 0;
+}
+.container_payment{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1300px;
+    margin: 40px auto;
+}
+.infor_user *:not(label){
+    display: block;
+    font-size: larger;
+    border: none;
+    border-bottom: 1px solid #B89E9E;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    outline: none;
+    padding: 10px 0;
+    line-height: auto;
+}
+.infor_user{
+    margin: auto 0;
+}
+.infor_user h2{
+    margin-top:0;
+}
+.infor_order{
+    border: 2px solid rgb(126, 126, 255);
+    box-shadow: 0 0 2px rgb(89, 89, 255);
+}
+.infor_order div, .infor_order h2{
+    border-bottom: 1px solid #B89E9E;
+    width: 80%;
+    margin: auto;
+    margin: 50px auto;
+    font-size: larger;
+    outline: none;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.infor_order div{
+    font-weight: 600;
+    font-size: 19px;
+}
+.infor_order button{
+    display: block;
+    border: 1px solid;
+    margin: auto;
+    color: #fff;
+    background-color: red;
+    padding: 8px 100px;
+    font-size:20px;
+    font-weight:600;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.container_payment h2{
+    font-size: 28px;
+}
+.infor_order h2{
+    display: block;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: none;
+}
+#cost{
+    color: red;
+}
+.input_val, .input_val_after, .input_val_price, .input_total_price{
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+    outline: none;
+    width: 450px;
+}
+
+.input_name, .input_price, .input_quantity, .input_tam_tinh{
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+    outline: none;
+    width: 200px;
+}
+.input_price, .input_tam_tinh, .input_total_price{
+    text-align: right;
+    width: 200px;
+}
+.input_quantity{
+    width: 50px;
+}
+.input_name{
+    width: 350px;
+}
+.input_val_after{
+    text-align: left;
+    width: 50px;
+}
+.after_price{
+    width: 170px;
+    text-align: right;
+}
+.input_val_price{
+    text-align: right;
+}
+.error{
+    color: red;
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.container_order_sucess{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.container_order_sucess img{
+    width: 100px;
+}
+.container_order_sucess h1{
+    margin: 40px 0;
+}
+.container_order_sucess a{
+    border: 1px solid;
+    padding: 10px 30px;
+    margin: 0 10px;
+    font-weight: 500;
+}
+.container_order_sucess #cont{
+    background-color: red;
+    color: #fff;
+}
+.container_order_sucess #follow{
+    background-color: black;
+    color: #fff;
+}

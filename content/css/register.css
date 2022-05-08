@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_register{
+    width: 900px;
+    margin: auto;
+    
+}
+main{
+    padding: 120px 0 40px 0;
+}
+.main_register section{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    border: solid 1px #c5c5c5;
+    height: fit-content;
+    border-radius: 10px;
+}
+.model_img img{
+    width: 100%;
+    height: 100%;
+}
+form{
+   margin-left: 50px;
+}
+.content h1{
+    margin: 25px 0px 15px 0;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+form input{
+    margin: 15px 0px 10px 15px ;
+    outline: none;
+    font-size: 17px;
+}
+input{
+border: none;
+border-bottom: 1px solid;
+height: 50px;
+width: 350px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.email_age .email{
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    height: 50px;
+    width: 230px;
+}
+.email_age .age{
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    height: 50px;
+    width: 100px;
+}
+.register button{
+    margin: 15px 0px 10px 15px ;
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    font-weight: lighter;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.forget{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.forget a {
+    text-decoration: none;
+    color: rgb(226, 38, 38);
+}
+
+
+
+@media screen and (max-width:992px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .main_register{
+        width: unset;
+    }
+    .main_register main{
+        padding-top: 40px;
+    }
+    .main_register section{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .main_register form{
+        margin-left: 0;
+    }
+    .model_img{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .main_register .content{
+        width: 100%;
+    }
+    .main_register input {
+        width: 95%;
+    }
+}
