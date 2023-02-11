@@ -1,3 +1,5 @@
 <?php
-    header("Location: ./site")
+    // header("Location: ./site")
+    var_dump("abc");
+    die();
 ?>
