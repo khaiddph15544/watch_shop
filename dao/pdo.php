@@ -1,6 +1,6 @@
 <?php
     function pdo_get_connection(){
-        $conn = new PDO("mysql:host=localhost; dbname=du_an1; charset=utf8", "root", "");
+        $conn = new PDO("mysql:host=localhost; dbname=sample_project; charset=utf8", "root", "");
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         return $conn;
     }

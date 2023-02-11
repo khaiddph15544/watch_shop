@@ -147,7 +147,7 @@
                 </div>
             </section>
 
-            <p id="filter_at_home" style="display: none"><?php echo $_REQUEST['cate_id'] ?></p>
+            <p id="filter_at_home" style="display: none;"><?= (count($_REQUEST) && $_REQUEST['cate_id']) ? $_REQUEST['cate_id'] : '*' ?></p>
         </main>
     </div>
 </body>

@@ -9,7 +9,7 @@ class database
    public function connect()
    {
       try {
-         $this->conn = new PDO("mysql:host=localhost;dbname=du_an1; charset=utf8", "root", "");
+         $this->conn = new PDO("mysql:host=localhost;dbname=sample_project; charset=utf8", "root", "");
          $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       } catch (PDOException $error) {
          echo "lỗi kết nối:" . $error->getMessage();
